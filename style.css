@@ -17,7 +17,6 @@
 }
 
 body {
-  min-height: 100vh;
   background-color: darkgray;
   font-family: var(--fonte01);
   width: 100%;
@@ -39,6 +38,7 @@ header>h1 {
   padding-top: 50px;
   font-family: var(--fonte02);
   font-size: 70px;
+  font-size: 10vmin;
 
 }
 
