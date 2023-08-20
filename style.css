@@ -4,8 +4,7 @@
 
 :root {
 
-  --fonte01: 'Dancing Script', cursive;
-
+  --fonte01: Arial, Helvetica, sans-serif;
   --fonte02: 'Times New Roman', Times, serif
 }
 
@@ -102,9 +101,9 @@ section.imagem {
   background-image: url('imagens de fundo gif/borboleta.gif');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center right;
-  position: relative;
-  min-width: 300px;
+  background-position: center;
+  position:
+    min-width: 300px;
   max-width: 1400px;
 
 
