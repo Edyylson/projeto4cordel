@@ -99,7 +99,7 @@ section.imagem {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
-  width: 100%;
+  min-width: auto;
 
 }
 
