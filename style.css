@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+
+
+:root {
+
+  --fonte01: 'Dancing Script', cursive;
+
+  --fonte02: 'Times New Roman', Times, serif
+}
+
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkgray;
+  font-family: var(--fonte01);
+
+}
+
+
+header {
+
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+header>h1 {
+  font-variant: small-caps;
+  padding-top: 50px;
+  font-family: var(--fonte02);
+  font-size: 70px;
+
+}
+
+
+header>p {
+  padding-bottom: 50px;
+
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+
+
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 33px;
+  font-size: 3vw;
+
+}
+
+
+
+section>p {
+  padding-bottom: 1.5em;
+
+}
+
+
+section.normal {
+  background-color: white;
+  color: black;
+
+}
+
+
+section.imagemf>p {
+  background-color: rgb(54, 49, 49);
+  display: inline-block;
+  padding: 5px;
+  text-shadow: 5px 5px 0px black;
+
+
+}
+
+
+
+
+
+section.imagemf {
+  background-color: rgb(85, 82, 82);
+  color: white;
+  box-shadow: inset 20px 20px 30px 0px rgb(20, 20, 39);
+  background-attachment: fixed;
+  min-width: 300px;
+
+
+
+}
+
+#img01 {
+  background-image: url('imagens de fundo gif/borboleta.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+#img02 {
+  background-image: url('imagens de fundo gif/carta_escrita.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+
+
+
+
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+
+
+}
