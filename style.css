@@ -37,8 +37,8 @@ header>h1 {
   font-variant: small-caps;
   padding-top: 50px;
   font-family: var(--fonte02);
-  font-size: 70px;
-  font-size: 17vmin;
+  font-size: 10vmin;
+  margin: auto;
 
 }
 
