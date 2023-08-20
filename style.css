@@ -94,6 +94,7 @@ section.imagemf>p {
   text-shadow: 5px 5px 0px black;
 
 
+
 }
 
 
@@ -105,7 +106,7 @@ section.imagemf {
   color: white;
   box-shadow: inset 20px 20px 30px 0px rgb(20, 20, 39);
   background-attachment: fixed;
-  min-width: 300px;
+  width: 100%;
 
 
 
