@@ -17,9 +17,8 @@
 }
 
 body {
-  background-color: rgb(68, 63, 63);
+  background-color: brown;
   font-family: var(--fonte01);
-  width: 100%;
 
 }
 
@@ -37,7 +36,6 @@ header>h1 {
   padding-top: 50px;
   font-family: var(--fonte02);
   font-size: 10vmin;
-  margin: auto;
 
 }
 
@@ -68,7 +66,6 @@ section {
   line-height: 2em;
   padding-left: 33px;
   font-size: 3vw;
-
 }
 
 
@@ -86,46 +83,31 @@ section.normal {
 }
 
 
-section.imagemf>p {
-  background-color: rgb(54, 49, 49);
-  display: inline-block;
-  padding: 5px;
-  text-shadow: 5px 5px 0px black;
 
-
-
-}
-
-
-
-
-
-section.imagemf {
-  background-color: rgb(85, 82, 82);
+section.imagem {
+  background-color: gray;
   color: white;
   box-shadow: inset 20px 20px 30px 0px rgb(20, 20, 39);
   background-attachment: fixed;
-
+  text-shadow: 5px 5px 0px black;
 
 }
 
-#img01 {
+
+#imgsection01 {
   background-image: url('imagens de fundo gif/borboleta.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
 }
 
-#img02 {
+#imgsection02 {
   background-image: url('imagens de fundo gif/carta_escrita.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
 }
-
-
-
 
 
 
