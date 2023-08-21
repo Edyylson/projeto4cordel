@@ -96,6 +96,7 @@ section.imagem {
   background-attachment: fixed;
   text-shadow: 5px 5px 0px black;
 
+
 }
 
 
@@ -107,10 +108,11 @@ section.imagem {
 
 }
 
+
 #imgsection02 {
   background-image: url('imagens de fundo gif/carta_escrita.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
 
 
