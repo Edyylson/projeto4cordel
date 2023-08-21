@@ -18,8 +18,8 @@
 body {
   background-color: brown;
   font-family: var(--fonte01);
-  min-width: 300px;
   max-width: 1400px;
+  min-width: 300px;
 
 }
 
@@ -69,6 +69,8 @@ section {
   line-height: 2em;
   padding-left: 33px;
   font-size: 3vw;
+  min-width: 300px;
+
 }
 
 
@@ -100,9 +102,8 @@ section.imagem {
 #imgsection01 {
   background-image: url('imagens de fundo gif/borboleta.gif');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
-  min-width: 100px;
 
 }
 
@@ -111,7 +112,7 @@ section.imagem {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-width: 100px;
+
 
 }
 
